@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import TodoItem from './TodoItem';
 const TodosList = (props) => {
   return (
