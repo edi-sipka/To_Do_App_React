@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import TodosList from './TodosList';
 import Header from './Header';
