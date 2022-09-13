@@ -1,15 +1,26 @@
 /* eslint-disable */
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './functionBased/App.css';
 import TodoContainer from './functionBased/components/TodoContainer';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+import * as ReactDOMClient from 'react-dom/client';
 
-ReactDOM.render(
+const root = ReactDOMClient.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <Router>
+      <TodoContainer />
+    </Router>
+  </React.StrictMode>
+);
+
+/* 
+const root = ReactDOMClient.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <TodoContainer />
+      <App />
     </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
+*/
