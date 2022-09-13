@@ -1,86 +1,70 @@
-# Project Name
+# Getting Started with Create React App
 
-To Do App in React
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Description the project.
+## Available Scripts
 
-This project is built with React Js.
-I have used: Class components and Function components.
+In the project directory, you can run:
 
-## Built With
+### `npm start`
 
-- React Js
-- Jest testing
-- following github flows standards.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Getting Started
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-**This web page is built with React and you can Add, Delete or Add list.**
+### `npm test`
 
-**To do List project works on mobile and desktop using @Media queries .**
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
----
+### `npm run build`
 
-To get a local copy up and running follow these simple example steps.
-follow>>>>>>>>>
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Setup
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-to use the project To do list please follow :
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-> Open GitHub and go to my GitHub repository name: To_Do_App_React to clone.
-> Click “Code” and copy the given URL.
-> click code and copy the URL.
+### `npm run eject`
 
-> click code and copy the URL.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-> Open “Git Bash” and change the current working directory to the location where you want the cloned directory.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-> Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-> Syntax:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-$ git clone {repository URL}
+## Learn More
 
-### Usage
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-> open your directory To_Do_App_React
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-\_use vs-code or any IDE to view line code .
+### Code Splitting
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-$ npm start to run the local server
+### Analyzing the Bundle Size
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## Click here for live version
+### Making a Progressive Web App
 
-- live demo: [coming soon]()
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## Authors
+### Advanced Configuration
 
-:bust_in_silhouette: **Edi Sipka**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-- GitHub: [@Edi Sipka](https://github.com/edi-sipka)
-- Twitter: [@sipka_edii](https://twitter.com/sipka_edii)
-- LinkedIn: [Edi Sipka](https://www.linkedin.com/in/edi-%C5%A1ipka-5b681b202/)
+### Deployment
 
-## 🤝 Contributing
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-Contributions, issues, and feature requests are welcome!
-thanks:
+### `npm run build` fails to minify
 
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Microverse
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
